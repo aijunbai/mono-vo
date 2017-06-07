@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project( mono-vo )
 find_package( OpenCV 3.0 REQUIRED )
+set(CMAKE_CXX_STANDARD 14)
 
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
